@@ -340,6 +340,7 @@
 				GCC_PREFIX_HEADER = Sources/SoundCloudAPI_Prefix.pch;
 				INSTALL_PATH = /usr/local/lib;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MACOSX_DEPLOYMENT_TARGET = "";
 				PRODUCT_NAME = SoundCloudAPI;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -359,6 +360,7 @@
 				GCC_PREFIX_HEADER = Sources/SoundCloudAPI_Prefix.pch;
 				INSTALL_PATH = /usr/local/lib;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MACOSX_DEPLOYMENT_TARGET = "";
 				PRODUCT_NAME = SoundCloudAPI;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -380,7 +382,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.5;
 				OTHER_LDFLAGS = "-ObjC";
 				SCAPI_VERSION = 2.0b6;
-				SDKROOT = iphoneos;
+				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
@@ -398,7 +400,7 @@
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				OTHER_LDFLAGS = "-ObjC";
 				SCAPI_VERSION = 2.0b6;
-				SDKROOT = iphoneos;
+				SDKROOT = macosx;
 			};
 			name = Release;
 		};
